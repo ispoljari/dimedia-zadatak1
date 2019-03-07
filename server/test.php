@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
 $data = array(
 
 'Utorak - 16.04.2014'=>array(
