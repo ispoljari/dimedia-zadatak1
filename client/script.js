@@ -11,5 +11,4 @@ async function buttonClickHandler() {
   } catch (error) {
     console.log(error);
   }
-  
 }

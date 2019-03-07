@@ -1,0 +1,14 @@
+{
+  "name": "zadatak-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "php -S 127.0.0.1:8888 -t server/ & live-server --port=8080 --open=client"
+  },
+  "author": "Ivan Spoljaric",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
