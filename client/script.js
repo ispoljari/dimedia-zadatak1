@@ -14,7 +14,7 @@ function buttonClickHandler() {
   })
   .then(result => {
     writeDataToDOM(result);
-    console.log(result);
+    console.log(result); // pretpostavljam da se na ovo misli pod zahtjevom "ispisati povratne podatke na klik gumba"
   })
   .catch(err => {
     console.log(err);
